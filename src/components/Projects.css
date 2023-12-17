@@ -1,0 +1,65 @@
+/* src/components/Projects.css */
+.projects-section {
+    margin: 20px auto;
+    padding: 30px; /* Increase padding for a more spacious feel */
+    max-width: 100vw; /* Set maximum width to viewport width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .projects-section h2 {
+    color: #ff5757; /* Red */
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .projects-section p {
+    margin-bottom: 25px; /* Increase margin between paragraph and list */
+    color: #2d89ff; /* Blue */
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  
+  .projects-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-section button {
+    margin-bottom: 15px; /* Increase margin between buttons */
+    padding: 18px 30px; /* Increase padding for buttons */
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .projects-section button:hover {
+    background-color: #45a049; /* Darken button color on hover */
+  }
+  
+  .projects-section button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .projects-section button:focus {
+    outline: none;
+  }
+  
+  /* Additional styling for links inside buttons */
+  .projects-section button a:hover {
+    text-decoration: underline;
+  }
+  
